@@ -32,7 +32,7 @@ import rosegraphics as rg
 windows = rg.TurtleWindow()
 windows.tracer(10)
 turtle1 = rg.SimpleTurtle('turtle')
-turtle1.Pen = rg.Pen('blue',10)
+turtle1.pen = rg.Pen('darkBlue', 1)
 turtle1.speed = 30
 for k in range (50):
     turtle1.draw_regular_polygon(8,50)

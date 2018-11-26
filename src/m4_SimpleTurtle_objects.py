@@ -156,7 +156,7 @@ natasha.forward(10)
 #
 ###############################################################################
 zk = rg.SimpleTurtle('turtle')
-zk.pen = rg.Pen('blue',2)
+zk.pen = rg.Pen('blue', 2)
 zk.speed = 20
 zk.draw_circle(1000)
 

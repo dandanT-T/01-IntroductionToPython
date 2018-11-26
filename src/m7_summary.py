@@ -44,15 +44,15 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #
 ########################################################################
 import rosegraphics as rg
-window = rg.TurtleWindow()
+windows = rg.TurtleWindow()
 sturtle = rg.SimpleTurtle('turtle')
-sturtle.Pen = rg.Pen('blue',10)
+sturtle.pen = rg.Pen('blue', 10)
 sturtle.left(angle=90)
 sturtle.forward(200)
 sturtle.pen_up()
 sturtle.go_to(rg.Point(100, -40))
 sturtle.pen_down()
-sturtle.Pen = ('green', 10)
+sturtle.pen = rg.Pen('green', 10)
 sturtle.left(angle=180)
 sturtle.forward(150)
-window.close_on_mouse_click()
+windows.close_on_mouse_click()
